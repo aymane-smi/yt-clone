@@ -306,7 +306,7 @@ button .bi-search{
 
 
 .card:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
     border: 2px solid var(--gray);
     background: var(--gray);
     z-index: 99999;
