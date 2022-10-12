@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Youtube</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div class="leftbar">
+        <ul>
+            <li>
+                <i class="bi bi-list"></i>
+            </li>
+            <li>
+                <i class="bi bi-house-door-fill"></i>
+                <p>Acceuil</p>
+            </li>
+            <li>
+                <i class="bi bi-compass"></i>
+                <p>Explorer</p>
+            </li>
+            <li>
+                <i class="bi bi-caret-right"></i>
+                <p>shorts</p>
+            </li>
+            <li>
+                <i class="bi bi-collection-play"></i>
+                <p>Abonnemets</p>
+            </li>
+            <li>
+                <i class="bi bi-caret-right-square"></i>
+                <p>Bibliothéque</p>
+            </li>
+        </ul>
+    </div>
+    <main>
+        <!--navbar (search,settings and logo)-->
+        <nav>
+            <section class="Logo">
+                <i class="bi bi-youtube youtube"></i>
+                <span class="youtube-text">Youtube<sup>MA</sup></span>
+            </section>
+            <section class="middle">
+                <i class="bi bi-search search-icon"></i>
+                <input type="text" name="search" placeholder="Recherche"/>
+                <button>
+                    <i class="bi bi-search"></i>
+                </button>
+            </section>
+            <section class="left">
+                <i class="bi bi-camera-video camera"></i>
+                <div class="bell-container">
+                    <span class="notification">9+</span>
+                    <i class="bi bi-bell bell"></i>
+                </div>
+                <img src="https://yt3.ggpht.com/yti/AJo0G0lGtrzugojlsIvjVeNbhuiNQhcFakLm9XjXhw=s88-c-k-c0x00ffffff-no-rj-mo" alt="avatar from google account" class="avatar"/>
+            </section>
+        </nav>
+        <!--scrollable menu-->
+        <section class="horizontal-menu">
+            <div class="item">Music</div>
+            <div class="item">AI</div>
+            <div class="item">En direct</div>
+            <div class="item">Lofi</div>
+            <div class="item">Deep house</div>
+            <div class="item">Music</div>
+            <div class="item">Programmation informatique</div>
+            <div class="item">Cyber securité</div>
+            <div class="item">Day in life</div>
+            <div class="item">fireship</div>
+            <div class="item">react</div>
+            <div class="item">golang</div>
+            <div class="item">tricks</div>
+            <div class="item">tricks</div>
+            <div class="item">tricks</div>
+            <div class="item">tricks</div>
+            <div class="item">tricks</div>
+            <div class="item">tricks</div>
+            <div class="item">Day in life</div>
+        </section>
+        <!--videos as card-->
+        <section class="videos-container">
+            <!--first row-->
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/260/150" alt="just a random image from the internet"/>
+                    <span class="time">12:08</span>
+                </div>
+                <div class="caption">
+                    <div class="caption-body">
+                        <img src="https://yt3.ggpht.com/yti/AJo0G0lGtrzugojlsIvjVeNbhuiNQhcFakLm9XjXhw=s88-c-k-c0x00ffffff-no-rj-mo" alt="avatar of the video owner" class="video-owner"/>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="info">
+                        <p>aymane</p>
+                        <p>22 M de vues il y a 1 an</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/260/150" alt="just a random image from the internet"/>
+                    <span class="time">12:08</span>
+                </div>
+                <div class="caption">
+                    <div class="caption-body">
+                        <img src="https://yt3.ggpht.com/yti/AJo0G0lGtrzugojlsIvjVeNbhuiNQhcFakLm9XjXhw=s88-c-k-c0x00ffffff-no-rj-mo" alt="avatar of the video owner" class="video-owner"/>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="info">
+                        <p>aymane</p>
+                        <p>22 M de vues il y a 1 an</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/260/150" alt="just a random image from the internet"/>
+                    <span class="time">12:08</span>
+                </div>
+                <div class="caption">
+                    <div class="caption-body">
+                        <img src="https://yt3.ggpht.com/yti/AJo0G0lGtrzugojlsIvjVeNbhuiNQhcFakLm9XjXhw=s88-c-k-c0x00ffffff-no-rj-mo" alt="avatar of the video owner" class="video-owner"/>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="info">
+                        <p>aymane</p>
+                        <p>22 M de vues il y a 1 an</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/260/150" alt="just a random image from the internet"/>
+                    <span class="time">12:08</span>
+                </div>
+                <div class="caption">
+                    <div class="caption-body">
+                        <img src="https://yt3.ggpht.com/yti/AJo0G0lGtrzugojlsIvjVeNbhuiNQhcFakLm9XjXhw=s88-c-k-c0x00ffffff-no-rj-mo" alt="avatar of the video owner" class="video-owner"/>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="info">
+                        <p>aymane</p>
+                        <p>22 M de vues il y a 1 an</p>
+                    </div>
+                </div>
+            </div>
+            <!--second row-->
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/260/150" alt="just a random image from the internet"/>
+                    <span class="time">12:08</span>
+                </div>
+                <div class="caption">
+                    <div class="caption-body">
+                        <img src="https://yt3.ggpht.com/yti/AJo0G0lGtrzugojlsIvjVeNbhuiNQhcFakLm9XjXhw=s88-c-k-c0x00ffffff-no-rj-mo" alt="avatar of the video owner" class="video-owner"/>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="info">
+                        <p>aymane</p>
+                        <p>22 M de vues il y a 1 an</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/260/150" alt="just a random image from the internet"/>
+                    <span class="time">12:08</span>
+                </div>
+                <div class="caption">
+                    <div class="caption-body">
+                        <img src="https://yt3.ggpht.com/yti/AJo0G0lGtrzugojlsIvjVeNbhuiNQhcFakLm9XjXhw=s88-c-k-c0x00ffffff-no-rj-mo" alt="avatar of the video owner" class="video-owner"/>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="info">
+                        <p>aymane</p>
+                        <p>22 M de vues il y a 1 an</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/260/150" alt="just a random image from the internet"/>
+                    <span class="time">12:08</span>
+                </div>
+                <div class="caption">
+                    <div class="caption-body">
+                        <img src="https://yt3.ggpht.com/yti/AJo0G0lGtrzugojlsIvjVeNbhuiNQhcFakLm9XjXhw=s88-c-k-c0x00ffffff-no-rj-mo" alt="avatar of the video owner" class="video-owner"/>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="info">
+                        <p>aymane</p>
+                        <p>22 M de vues il y a 1 an</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/260/150" alt="just a random image from the internet"/>
+                    <span class="time">12:08</span>
+                </div>
+                <div class="caption">
+                    <div class="caption-body">
+                        <img src="https://yt3.ggpht.com/yti/AJo0G0lGtrzugojlsIvjVeNbhuiNQhcFakLm9XjXhw=s88-c-k-c0x00ffffff-no-rj-mo" alt="avatar of the video owner" class="video-owner"/>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="info">
+                        <p>aymane</p>
+                        <p>22 M de vues il y a 1 an</p>
+                    </div>
+                </div>
+            </div>
+            <!--thired row-->
+        </section>
+    </main>
+    
+</body>
+</html>
